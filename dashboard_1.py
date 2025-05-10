@@ -10,10 +10,10 @@ st.set_page_config(page_title="Dashboard", page_icon="🔍")
 st.image("https://i.pinimg.com/736x/93/8f/6a/938f6a4214868cde45f3de12a318adfb.jpg")
 
 # Load data
-visualisasi_bulanan = pd.read_csv("submission 1/visualisasi_bulanan.csv", delimiter =",")
-visualisasi_diurnal = pd.read_csv("submission 1/visualisasi_diurnal.csv", delimiter =",")
-vis_PM25 = pd.read_csv("submission 1/PM25_harian.csv", delimiter =",")
-vis_PM10 = pd.read_csv("submission 1/PM10_harian.csv", delimiter =",")
+visualisasi_bulanan = pd.read_csv("submission1/visualisasi_bulanan.csv", delimiter =",")
+visualisasi_diurnal = pd.read_csv("submission1/visualisasi_diurnal.csv", delimiter =",")
+vis_PM25 = pd.read_csv("submission1/PM25_harian.csv", delimiter =",")
+vis_PM10 = pd.read_csv("submission1/PM10_harian.csv", delimiter =",")
 
 st.title("Proyek Analisis Data: Kualitas Udara Wilayah Urban, Suburban, dan Rural di Kota Beijing")
 st.markdown(
