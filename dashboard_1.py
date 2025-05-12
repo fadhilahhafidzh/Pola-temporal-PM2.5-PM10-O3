@@ -126,8 +126,6 @@ with Tab2:
     
 
 with Tab3:
-    #menampilkan header
-    st.header("Analisis Lanjutan: BMUA")
     #membuat judul plot
     st.markdown(
         """
@@ -139,7 +137,7 @@ with Tab3:
         """
         , unsafe_allow_html=True)
     #nama subheader
-    st.subheader("Kualitas Udara Harian PM2.5")
+    st.subheader("Pola Harian PM2.5")
     #tampilkan dataframe
     st.write("Data Rata-Rata PM2.5 Harian")
     st.dataframe(vis_PM25)
@@ -163,7 +161,7 @@ with Tab3:
     st.pyplot(line_PM25.figure)
 
     #nama subheader
-    st.subheader("Kualitas Udara Harian PM10")
+    st.subheader("Pola Harian PM10")
     #tampilkan dataframe
     st.write("Data Rata-Rata PM10 Harian")
     st.dataframe(vis_PM10)
@@ -199,7 +197,7 @@ with Tab3:
 
 with Tab4:
     #menampilkan header
-    st.header("Analisis Lanjutan: Kategori Data")
+    st.header("Analisis Lanjutan: Clustering-based Binning")
     #tampilkan dataframe
     st.write("Data Rata-Rata Bulanan PM2.5, PM10, dan O₃")
     st.dataframe(vis_cat)
