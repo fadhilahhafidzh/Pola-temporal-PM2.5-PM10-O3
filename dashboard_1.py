@@ -8,8 +8,7 @@ import os
 st.set_page_config(page_title="Dashboard", page_icon="🔍")
 
 st.image("https://i.pinimg.com/736x/93/8f/6a/938f6a4214868cde45f3de12a318adfb.jpg")
-#ambil data dari csv
-path = os.chdir("D:/Coba2 dicoding")
+
 # Load data
 visualisasi_bulanan = pd.read_csv("submission1/visualisasi_bulanan.csv", delimiter =",")
 visualisasi_diurnal = pd.read_csv("submission1/visualisasi_diurnal.csv", delimiter =",")
